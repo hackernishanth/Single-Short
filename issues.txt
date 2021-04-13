@@ -1,0 +1,31 @@
+pip install face-recognition
+
+    # https://anaconda.org/conda-forge/face_recognition
+    ==> conda install -c conda-forge face_recognition
+
+pip install opencv-python 
+    
+    # https://anaconda.org/conda-forge/opencv
+    ==> conda install -c conda-forge opencv
+    ==> conda install -c conda-forge/label/gcc7 opencv
+    ==> conda install -c conda-forge/label/broken opencv
+    ==> conda install -c conda-forge/label/cf201901 opencv
+    ==> conda install -c conda-forge/label/cf202003 opencv
+
+pip install flask 
+
+    # https://anaconda.org/anaconda/flask
+    ==> conda install -c anaconda flask
+
+pip install cmake 
+
+    # https://anaconda.org/anaconda/cmake
+    ==> conda install -c anaconda cmake
+
+pip install dlib 
+
+    # https://anaconda.org/conda-forge/dlib
+    # https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/
+    ==> conda install -c conda-forge dlib
+    ==> conda install -c conda-forge/label/cf201901 dlib
+    ==> conda install -c conda-forge/label/cf202003 dlib

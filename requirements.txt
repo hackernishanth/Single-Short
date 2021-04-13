@@ -1,0 +1,16 @@
+certifi==2020.12.5
+click==7.1.2
+cmake==3.18.4.post1
+dlib==19.22.0
+face-recognition @ file:///home/conda/feedstock_root/build_artifacts/face_recognition_1600102073710/work
+face-recognition-models @ file:///home/conda/feedstock_root/build_artifacts/face_recognition_models_1595707436534/work
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+numpy==1.19.5
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+opencv-python==4.5.1.48
+Pillow @ file:///C:/ci/pillow_1617386325740/work
+Werkzeug==1.0.1
+wincertstore==0.2
