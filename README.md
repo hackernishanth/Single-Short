@@ -64,6 +64,7 @@ python main.py
 ## Increase Model Performance
 Instead of SSD Resnet model Replace You Only Look Once(yolo) Object Detection model
 - [yolov4](https://github.com/Tianxiaomo/pytorch-YOLOv4)
+- [Image Processing](https://github.com/ageitgey/face_recognition/blob/master/examples/digital_makeup.py)
 
 ---
 
