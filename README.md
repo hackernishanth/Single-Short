@@ -37,7 +37,7 @@ When the user clicks on the “Verify” button, and if both the selfie picture 
 
 ```html
 https://github.com/hackernishanth/Single-Short.git
-cd Single-Short
+cd Single Short
 ```
 
 ### To create a [virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
