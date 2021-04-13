@@ -1,4 +1,4 @@
-# Single Short
+# Single Short Image Classification
 
 <p align="center">
 <a href="#">
@@ -64,18 +64,22 @@ python main.py
 
 <p align="center">
 <a href="#">
-         <img alt="Qries" src=""
-         width="50" height="50">
+         <img src="https://raw.githubusercontent.com/hackernishanth/Single-Short/main/TestedSamples/Landing%20Page.PNG"
+         width="400" height="400">
       </a>   
 <a href="#">
-         <img alt="Qries" src=""
-         width="50" height="50">
+         <img src="https://raw.githubusercontent.com/hackernishanth/Single-Short/main/TestedSamples/success%20Landing.PNG"
+         width="400" height="400">
+      </a>  
+<a href="#">
+         <img src="https://raw.githubusercontent.com/hackernishanth/Single-Short/main/TestedSamples/Invalid.PNG"
+         width="400" height="400">
       </a>   
 <a href="#">
-         <img alt="Qries" src=""
-         width="50" height="50">
+         <img src="https://raw.githubusercontent.com/hackernishanth/Single-Short/main/TestedSamples/Failed%20Landing.PNG"
+         width="400" height="400">
       </a>   
-
+         
 ---
 
 ## Increase Model Performance
