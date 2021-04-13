@@ -1,34 +1,43 @@
-# FaceRecognition
+# Single Short
+---
+### Problem Statement
 
+The intent of the challenge is to verify the identity of a person by matching their selfie image with the image that is displayed in their ID document.
+---
 <p align="center">
 <a href="#">
-         <img alt="Qries" src="https://governbetter.co/wp-content/uploads/2019/10/Facial-Recognition-Indian-Government.gif"
-          width="80%" height="80%">
+         <img alt="Qries" src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/222003/page/222003kxyukmaX.gif"
+          width="100%" height="100%">
       </a>
 
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+When the user runs the application, the camera should be turned on and it should capture the live image of the user using the front camera in the system.
+The user should hold any one of the following ID cards near their face while appearing for the selfie (Quality must be clear and readable with no obstruction of fingers,
+out-of-frame cuts or blurred pixels.) Halleyx Confidential. For office use only. 
+
+Acceptable ID forms
+- Driver’s Licence
+- Passport
+- Aadhar card
+- PAN card
+
+When the user clicks on the “Verify” button, and if both the selfie picture as well as the image in the document matches, a “Success” message should be displayed. Else, it should display a “Failure” message.
 
 #### Technologies
 
-- Technology 1
-- Technology 2
 
-[Back To The Top](#read-me-template)
 
 ---
 
@@ -36,53 +45,44 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
-
-
-#### API Reference
-
 ```html
-    <p>dummy code</p>
+    git clone 
+    cd 
+    pip install -r requirements.txt
 ```
 [Back To The Top](#read-me-template)
 
 ---
 
-## References
-[Back To The Top](#read-me-template)
+## Packages used
+
+- [Opencv](https://docs.opencv.org/master/)
+- [Dlib](http://dlib.net/python/index.html)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 ---
 
-## License
+### Author Info...
 
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
-
-## Author Info
-
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
-
-[Back To The Top](#read-me-template)
+<p align="center">
+<a href="mailto:m.nishanth2020@gmail.com">
+         <img alt="Qries" src="https://www.freeiconspng.com/uploads/gmail-icon-23.png"
+         width="50" height="50">
+      </a>   
+<a href="https://linkedin.com/in/nishanth-kumar-881109173/">
+         <img alt="Qries" src="https://cdn.iconscout.com/icon/free/png-256/linkedin-2662666-2213265.png"
+         width="50" height="50">
+      </a>
+<a href="https://leetcode.com/Nishanth_Kumar_27_11/">
+         <img alt="Qries" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/leetcode_logo_icon_145113.png"
+         width="50" height="50">
+      </a>
+<a href="https://www.hackerrank.com/m_nishanthknniim">
+         <img alt="Qries" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png"
+          width="50" height="50">
+      </a>
+<a href="https://www.kaggle.com/kdnishanth">
+         <img alt="Qries" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/189_Kaggle_logo_logos-512.png"
+         width="50" height="45">
+      </a>  
+</p>
