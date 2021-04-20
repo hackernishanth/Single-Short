@@ -7,7 +7,7 @@ def MeanQuareError(FirstImage, SecondImage):
 
 	# sum of the squared difference between the two images;
 	# NOTE: the two images must have the same dimension
-    # Finding the error similarity between two images
+        # Finding the error similarity between two images
 	error = np.sum((FirstImage.astype("float") - SecondImage.astype("float")) ** 2)
 	return error / float(FirstImage.shape[0] * FirstImage.shape[1])
     
@@ -89,7 +89,7 @@ def idChecker(imageToVerify):
         # print(score)
 
         # Score is indirectly propotional to the Accuracy
-        if (ErrorDifference < 20000): # 14000 is the thershold range
+        if (ErrorDifference < 14000): # 14000 is the thershold range
             isValid = True 
             break
 
